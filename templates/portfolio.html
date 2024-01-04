@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Наши работы</title>
+</head>
+<body>
+    <h1>Наши работы</h1>
+    {% for project in projects %}
+        <p>{{ project.name }} - {{ project.description }}</p>
+    {% endfor %}
+</body>
+</html>
